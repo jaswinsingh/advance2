@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:monospace;
+}
+.headcontainer{
+  width: 1300px;
+  margin: 0 auto;
+}
+#head_logo{
+  width: 120px;
+  height: 50px;
+}
+.header{
+height: 50px;
+}
+.logo{
+  margin-left: 80px;
+  display: inline;
+}
+.navigation{
+  float: right;
+  margin-top: 17px;
+}
+a{
+  text-decoration: none;
+  padding: 15px 10px;
+}
+li{
+  list-style-type: none;
+  display: inline;
+}
+.mailbox{
+  float: right;
+  margin-left: 50px;
+  margin-right: 80px;
+}
+a:hover{
+  background: blue;
+}
+.firstPage{
+  height: 700px;
+
+}
+.bg{
+  background-image:url("images/1.jpg");
+  height:700px;
+  background-position: center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+}
+.color{
+  background-color: rgba(0,0,40,0.9);
+  width: inherit;
+  height: inherit;
+  text-align:center;
+  position:relative;
+}
+.firstHeading{
+  position: absolute;
+  width: 900px;
+  left: 50%;
+  top: 50%;
+  margin-top: -80px;
+  margin-left: -450px;
+  color: white;
+  font-size: 4em;
+  line-height: 70px;
+  letter-spacing: -1px;
+}
+#subtext{
+  font-size: 15px;
+}
+#contactus,#discover{
+  border-radius: 30px;
+  padding: 15px 40px;
+  color: white;
+}
+#contactus{
+  background-color: #ffcc00;
+  border: solid 1px #ffcc00;
+}
+
+#discover{
+  background-color: rgba(0,0,0,0.1);
+  border: solid 1px white;
+}
